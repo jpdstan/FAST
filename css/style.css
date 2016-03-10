@@ -1,0 +1,168 @@
+@import url(http://db.onlinewebfonts.com/c/0dabf6820744e4ed41f7ce1dd8a9e502?family=SackersGothicW01-Light);
+@import url(http://db.onlinewebfonts.com/c/65bc711a745ac850f48c5e33d3e3e58c?family=DidotW01-Roman);
+@font-face {
+    font-family: "SackersGothicW01-Light";
+    src: url("http://db.onlinewebfonts.com/t/0dabf6820744e4ed41f7ce1dd8a9e502.eot");
+    src: url("http://db.onlinewebfonts.com/t/0dabf6820744e4ed41f7ce1dd8a9e502.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/0dabf6820744e4ed41f7ce1dd8a9e502.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/0dabf6820744e4ed41f7ce1dd8a9e502.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/0dabf6820744e4ed41f7ce1dd8a9e502.svg#SackersGothicW01-Light") format("svg");
+}
+@font-face {font-family: "DidotW01-Roman";
+    src: url("http://db.onlinewebfonts.com/t/65bc711a745ac850f48c5e33d3e3e58c.eot");
+    src: url("http://db.onlinewebfonts.com/t/65bc711a745ac850f48c5e33d3e3e58c.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/65bc711a745ac850f48c5e33d3e3e58c.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/65bc711a745ac850f48c5e33d3e3e58c.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/65bc711a745ac850f48c5e33d3e3e58c.svg#DidotW01-Roman") format("svg");
+}
+
+html, body{
+  margin: auto;
+  font-family: 'SackersGothicW01-Light';
+  background: #000;
+  color: #fff;
+}
+
+.banner {
+  width: 100%;
+  height: 330px;
+  margin: auto;
+}
+
+.one {
+  background: url("../assets/one.jpg");
+  background-size: cover;
+}
+
+.two {
+  background-image: url("../assets/two.jpg");
+  background-size: cover
+}
+
+.three {
+  background-image: url("../assets/three.jpg");
+  background-size: cover
+}
+
+.container {
+  width: 100%;
+  height: 330px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  -o-transition:color .2s ease-out, background .3s ease-in;
+  -ms-transition:color .2s ease-out, background .3s ease-in;
+  -moz-transition:color .2s ease-out, background .3s ease-in;
+  -webkit-transition:color .2s ease-out, background .3s ease-in;
+}
+
+.container:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  position: relative;
+  display: block;
+  z-index: 999;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7%; 
+  opacity: 0.75;
+  -o-transition:color .2s ease-out, background .3s ease-in;
+  -ms-transition:color .2s ease-out, background .3s ease-in;
+  -moz-transition:color .2s ease-out, background .3s ease-in;
+  -webkit-transition:color .2s ease-out, background .3s ease-in;
+}
+
+.header:hover {
+  opacity: 1.00;
+}
+
+.date {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.date span{
+  border-bottom: 1px solid #fff;
+  padding: 0.5em 0;
+}
+
+.heading {
+  font-family: 'DidotW01-Roman';
+  font-size: 4rem;
+  padding: 10px;
+  text-transform: uppercase; 
+  color: #fff !important;
+  padding-bottom: 55px;
+}
+
+.heading a{
+  color: #fff !important;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.expand {
+   height: 450px !important;
+   -webkit-transition: height 0.5s ease-in-out;
+    -moz-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+}
+
+.excerpt {
+  display: inherit !important;
+  visibility: visible;
+  transition: visibility 0s, opacity 0.5s linear;
+
+}
+
+.excerpt p{
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  font-style: italic;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.hide {
+  display: none;
+}
+
+.read-more {
+  text-align: center;
+}
+
+.white-btn {
+  text-align: center;
+  display: inline-block;
+  font-family: 'SackersGothicW01-Light';
+  font-style: normal;
+  text-decoration: none;
+  box-shadow: none;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  background: #FFF;
+  color: #000;
+  letter-spacing: 2px;
+  padding: 1em 2em;
+  font-size: 9px !important;
+}
+
+..white-btn a{
+  font-family: 'SackersGothicW01-Light';
+  font-style: normal;
+  text-decoration: none;
+  color: #000;
+}
+
+.white-btn:hover {
+  background: #000;
+  color: #FFF;
+}
+
