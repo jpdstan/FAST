@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Raleway';
+}
+p, div {
+  font-family: 'Raleway';
+}
+body{
+  background-color:black;
+  color:white;
+}
+a{
+  color: #0077CC;
+} 
+.centered{
+  text-align:center;
+}
+#main-content{
+  padding-left:25px;
+  padding-right:25px;
+}
+.r-img{
+  width:100%;
+  margin-top:5px;
+}
+#sponsor-form{
+  padding:15px;
+  background-color:rgba(183, 45, 14, 0.95);
+}
+#sponsor-form>.form-control{
+  margin-bottom:10px;
+  border-radius:0px;
+}
+#sponsor-form>.btn{
+  border-radius:0px;
+}
+.logo-img{
+  height:45px;
+  float:left;
+}
+
+
