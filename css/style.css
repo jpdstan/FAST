@@ -30,17 +30,17 @@ html, body{
 }
 
 .one {
-  background: url("../assets/one.jpg");
+  background: url("../img/one.jpg");
   background-size: cover;
 }
 
 .two {
-  background-image: url("../assets/two.jpg");
+  background-image: url("../img/two.jpg");
   background-size: cover
 }
 
 .three {
-  background-image: url("../assets/three.jpg");
+  background-image: url("../img/three.jpg");
   background-size: cover
 }
 
@@ -166,3 +166,6 @@ html, body{
   color: #FFF;
 }
 
+.empty-space {
+  height: 500px;
+}
