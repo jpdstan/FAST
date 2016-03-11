@@ -1,0 +1,40 @@
+div {
+  font-family: 'Lato', sans-serif;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.date {
+  color: #777;
+  font-size: 20px;
+  margin: 10px 5px;
+}
+
+.post {
+  margin: 10px 5px;
+  line-height: 150%;
+}
+
+.center {
+  margin: 0px auto;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  width: 500px;
+}
+
+img {
+  display: block;
+  width: 500px;
+}
