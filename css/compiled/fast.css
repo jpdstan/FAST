@@ -1,0 +1,17 @@
+/* use n*$base-unit for all font-sizing, (vertical) spacing */
+/* structural stuff */
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: #454545;
+  font-family: "Lato", sans-serif;
+  background-color: #fEfDf8;
+  font-size: 24px; }
+
+/* Adjustments to tag defaults */
+::selection {
+  background-color: #FFDE00; }
+
+p {
+  line-height: 1.5; }
