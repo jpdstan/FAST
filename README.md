@@ -1,5 +1,7 @@
 FAST
 ===
+Install with `npm install`. Run `gulp` to compile SASS and host with livereloading.
+
 Put html files in `html/` and stylesheets in `css/`
 
 ### How to keep your fork up to date
