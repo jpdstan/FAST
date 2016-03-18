@@ -2,9 +2,22 @@ div {
   font-family: 'Lato', sans-serif;
 }
 
+p {
+  line-height: 1.7;
+  font-size: 17px;
+  color: #444;
+}
+
 .title {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 50px;
+}
+
+.subheading {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: -10px;
 }
 
 .date {
@@ -30,11 +43,18 @@ div {
 .caption {
   text-align: center;
   font-size: 14px;
-  color: #777;
+  font-weight: 600;
+  color: #666;
   width: 500px;
 }
 
-img {
+.image {
   display: block;
-  width: 500px;
+  height: 490px;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  max-height: 100%;
 }
