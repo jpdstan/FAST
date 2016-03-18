@@ -1,0 +1,23 @@
+@import 'styleguide';
+
+/* structural stuff */
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  color: $offblack;
+  font-family: $font-body;
+  background-color: $offwhite;
+
+  font-size: $base-unit;
+}
+
+/* Adjustments to tag defaults */
+::selection {
+  background-color: $yellow;
+}
+
+p {
+  line-height: 1.5;
+}

@@ -7,25 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-    
+
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script>
     $(document).ready(function(){
         $(window).bind('scroll',function(e){
             parallaxScroll();
         });
-     
+
         function parallaxScroll(){
             var scrolledY = $(window).scrollTop();
             $('.banner').css('background-position','center -'+((scrolledY*0.25))+'px');
         }
 
-        $('.arrow').click(function(){    
+        $('.arrow').click(function(){
             $(this).parents(".banner").toggleClass('expand');
-            $(this).parents(".container").toggleClass('expand'); 
-            $(this).parent().next(".hide").toggleClass('excerpt');   
+            $(this).parents(".container").toggleClass('expand');
+            $(this).parent().next(".hide").toggleClass('excerpt');
         });
-     
+
     });
     </script>
 
@@ -33,12 +33,12 @@
     <link href="http://db.onlinewebfonts.com/c/65bc711a745ac850f48c5e33d3e3e58c?family=DidotW01-Roman" rel="stylesheet" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 
-    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/banners.css"/>
 
   </head>
 
   <body>
-    
+
     <div class="banner one">
       <div class="container">
         <div class="header">
@@ -98,6 +98,6 @@
     </div>
     <div class="empty-space">
     </div>
-    
+
   </body>
 </html>
