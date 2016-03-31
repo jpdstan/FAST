@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
+/* use n*$base-unit for all font-sizing, (vertical) spacing */
+/* structural stuff */
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: #333;
+  font-family: "Old Standard TT", sans-serif;
+  background-color: #fEfDf8;
+  font-size: 16px; }
+
+/* Adjustments to tag defaults */
+::selection {
+  background-color: #FFDE00; }
+
+p {
+  line-height: 1.5; }
+
+p {
+  line-height: 2em;
+  font-size: 1em;
+  color: #333;
+  font-family: "Old Standard TT", sans-serif; }
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3em;
+  color: #333; }
+
+.subheading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: -.5em;
+  color: #454545; }
+
+.date {
+  color: #888;
+  font-size: 1.5em;
+  margin: .5em 0em;
+  font-family: "Libre Baskerville", sans-serif; }
+
+.post {
+  margin: 1em auto;
+  line-height: 1.5em; }
+
+.after-caption {
+  margin-top: 0em; }
+
+.center {
+  margin: 0em auto; }
+
+#container-top {
+  margin-top: 3em; }
+
+#container-bot {
+  margin-bottom: 6em; }
+
+.caption {
+  font-family: "Libre Baskerville", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color: #666;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+.image-container {
+  text-align: center;
+  font-size: 0;
+  line-height: 0; }
+
+.image {
+  font-size: 16px;
+  margin-top: 1em; }
+
+#img1 {
+  background-image: url("http://www.glamour.com/images/fashion/2015/01/gigi-hadid-beach-sweater-modeling-main.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 700px;
+  width: 60%; }
+
+#img2 {
+  background-image: url("http://healthyceleb.com/wp-content/uploads/2015/08/Gigi-Hadid-bikini-figure.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 700px;
+  width: 40%; }
+
+#img3 {
+  background-image: url("http://hdwallpapers.thenewstrack.com/wp-content/uploads/2015/08/Gigi-Hadid-HD-Wallpaper-Free-Download-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%; }
