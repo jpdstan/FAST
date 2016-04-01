@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
 
-$font-body    : 'Libre Baskerville', sans-serif;
+$font-body    : 'Old Standard TT', sans-serif;
+$font-accent  : 'Libre Baskerville', sans-serif;
 $font-heading : 'Montserrat', sans-serif;
 $offwhite     : #fEfDf8;
-$offblack     : #454545;
+$offblack     : #333;
 $lightgrey    : #ddd;
 $grey         : #888;
-$darkgrey     : #333;
+$darkgrey     : #454545;
 $yellow       : #FFDE00;
 $fast         : 0.3s;
 $slow         : 0.6s;
