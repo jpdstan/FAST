@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
 /* use n*$base-unit for all font-sizing, (vertical) spacing */
 /* structural stuff */
 body, html {
@@ -5,9 +7,9 @@ body, html {
   height: 100%;
   width: 100%;
   color: #454545;
-  font-family: "Lato", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
   background-color: #fEfDf8;
-  font-size: 24px; }
+  font-size: 1.5em; }
 
 /* Adjustments to tag defaults */
 ::selection {
