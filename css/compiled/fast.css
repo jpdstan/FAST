@@ -9,7 +9,7 @@ body, html {
   color: #454545;
   font-family: "Libre Baskerville", sans-serif;
   background-color: #fEfDf8;
-  font-size: 1.5em; }
+  font-size: 16px; }
 
 /* Adjustments to tag defaults */
 ::selection {
