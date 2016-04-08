@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
+/* use n*$base-unit for all font-sizing, (vertical) spacing */
+/* structural stuff */
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: #333;
+  font-family: "Old Standard TT", sans-serif;
+  background-color: #fEfDf8;
+  font-size: 16px; }
+
+/* Adjustments to tag defaults */
+::selection {
+  background-color: #FFDE00; }
+
+p {
+  line-height: 1.5; }
+
+body, html {
+  background-color: #fEfDf8;
+  color: #333; }
+
+#main {
+  background: #fEfDf8;
+  color: #333;
+  border: 0;
+  margin: auto;
+  width: 80vw;
+  padding: 5vh 5vw; }
+
+.date {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 13px;
+  font-style: italic; }
+
+.words {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px; }
+
+h1 {
+  color: #BFBFBF;
+  font-family: 'Montserrat', sans-serif; }
+
+.photoblock {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  width: auto;
+  margin: 3vh 0;
+  height: auto; }
+
+.block {
+  flex: 1;
+  height: 30vh;
+  padding: 0;
+  background: #fEfDf8;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-width: 20vw; }
+
+.cover {
+  object-fit: cover; }
+
+.nametag {
+  min-width: 0;
+  color: #fEfDf8;
+  background-color: #333;
+  font-family: "Montserrat", sans-serif;
+  padding: 1em;
+  box-sizing: border-box; }
+
+.namee {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center; }
+
+.woo {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: .25em; }
+
+.wot {
+  position: relative;
+  top: -1em;
+  margin-bottom: 10px;
+  font-size: 10px;
+  font-family: "Libre Baskerville", sans-serif;
+  font-weight: lighter;
+  letter-spacing: .1em; }
