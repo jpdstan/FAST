@@ -9,7 +9,7 @@ body, html {
   width: 100%;
   color: #333;
   font-family: "Old Standard TT", sans-serif;
-  background-color: #fEfDf8;
+  background-color: #fEfefd;
   font-size: 16px; }
 
 /* Adjustments to tag defaults */
@@ -20,11 +20,11 @@ p {
   line-height: 1.5; }
 
 body, html {
-  background-color: #fEfDf8;
+  background-color: #fEfefd;
   color: #333; }
 
 #main {
-  background: #fEfDf8;
+  background: #fEfefd;
   color: #333;
   border: 0;
   margin: auto;
@@ -58,7 +58,7 @@ h1 {
   flex: 1;
   height: 30vh;
   padding: 0;
-  background: #fEfDf8;
+  background: #fEfefd;
   margin-right: 10px;
   margin-bottom: 10px;
   min-width: 20vw; }
@@ -68,7 +68,7 @@ h1 {
 
 .nametag {
   min-width: 0;
-  color: #fEfDf8;
+  color: #fEfefd;
   background-color: #333;
   font-family: "Montserrat", sans-serif;
   padding: 1em;
